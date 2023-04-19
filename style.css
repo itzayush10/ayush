@@ -4,8 +4,16 @@ body {
 }
 
 header {
-	background-color: #333;
-	color: #fff;
+	background-image: url(file:///C:/Users/INDIAN/Downloads/iit_bombay.jpg);
+	height: 30vh;
+	background-size: cover;
+	background-position: center;
+	background-color: rgba(0, 0, 0, 0.7);
+	background-blend-mode: darken;	
+	
+	text-align: center;
+	font-size: x-large;
+	color: white;
 	padding: 20px;
 }
 
@@ -25,7 +33,7 @@ nav li {
 }
 
 nav a {
-	color: #fff;
+	color: white;
 	text-decoration: none;
 }
 
@@ -51,7 +59,3 @@ form label {
 	margin-bottom: 5px;
 }
 
-form input,
-form textarea {
-	display:
-}
